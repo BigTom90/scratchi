@@ -47,7 +47,10 @@ body {
     width: 15px;
     height: 4px;
 }
-
+.overlay h4 {
+    background-color:black;
+    padding:10px;
+}
 .preloader-wrap {
     position: fixed;
     top: 0;

@@ -42,8 +42,9 @@ body {
 .no-padding {
     padding: 0;
 }
-.tns-liveregion{
+div.tns-liveregion{
     display:none;
+    
 }
 
 .owl-theme .owl-dots .owl-dot span {

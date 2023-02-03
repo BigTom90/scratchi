@@ -784,6 +784,60 @@ padding: 40px;
     max-width: 100%;
 }
 
+/******** ITEM SIX SECTION START ********/
+
+.item-six .overlay h4 {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    font-size: 16pt;
+    letter-spacing: 2pt;
+}
+
+.item-six .overlay .line {
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+}
+
+.item-six .overlay p {
+    top: 23%;
+    left: 10%;
+    position: absolute;
+    color: #9E9E9E;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    margin: 0;
+}
+
+.item-six .overlay {
+    position: relative;
+    background: #222;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.item-six .overlay:hover {
+    opacity: 0.7;
+}
+
+.item-six .overlay a {
+    text-decoration: none;
+}
+
+.work .item-six {
+    background: url('../img/jetskiBlack.jpg') no-repeat center center;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
 /******** ITEM FIVE SECTION START ********/
 
 .item-five .overlay h4 {
@@ -833,9 +887,10 @@ padding: 40px;
 }
 
 .work .item-five {
-    background: url('../img/placeholder.png') no-repeat center center;
+    background: url('../img/roadRacingBlack.jpg') no-repeat center center;
     background-size: cover;
-    height: 700px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /******** TESTIMONIALS SECTION START ********/

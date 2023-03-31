@@ -619,6 +619,117 @@ padding: 40px;
     max-width: 100%;
 }
 
+ /******** ITEM MX SECTION START ********/
+
+.item-mx .overlay h4 {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    font-size: 16pt;
+    letter-spacing: 2pt;
+}
+
+.item-mx .overlay .line {
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+}
+
+.item-mx .overlay p {
+    top: 23%;
+    left: 10%;
+    position: absolute;
+    color: #9E9E9E;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    margin: 0;
+}
+
+.item-mx .overlay {
+    position: relative;
+    background: #222;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.item-mx .overlay:hover {
+    opacity: 1;
+}
+
+.item-mx .overlay a {
+    text-decoration: none;
+}
+
+.work .item-mx {
+    background: url('../img/mxBlack.jpg') no-repeat center center;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+ /******** ITEM SSV SECTION START ********/
+
+.item-ssv .overlay h4 {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    color: #fff;
+    font-size: 16pt;
+    letter-spacing: 2pt;
+}
+
+.item-ssv .overlay .line {
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+}
+
+.item-ssv .overlay p {
+    top: 23%;
+    left: 10%;
+    position: absolute;
+    color: #9E9E9E;
+    font-size: 12pt;
+    letter-spacing: 2pt;
+    margin: 0;
+}
+
+.item-ssv .overlay {
+    position: relative;
+    background: #222;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.item-ssv .overlay:hover {
+    opacity: 1;
+}
+
+.item-ssv .overlay a {
+    text-decoration: none;
+}
+
+.work .item-ssv {
+    background: url('../img/svvBlack.jpg') no-repeat center center;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
 /******** ITEM TWO SECTION START ********/
 
 .item-two .overlay h4 {
